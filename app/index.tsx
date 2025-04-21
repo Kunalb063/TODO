@@ -28,7 +28,7 @@ export default function Index() {
           color:'purple',
           fontSize:30,
           fontWeight:'bold'
-        }}>Vashisth Building Materials</Text>
+        }}>Vashisth Building Materials My shop</Text>
       </View>
 
       <Image source={require("./logo.png")}
