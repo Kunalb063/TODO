@@ -33,7 +33,7 @@ const styles=StyleSheet.create({
   },
   image:{
     flex:1,
-    opacity:0.5,
+    opacity:1
   }
 })
 
