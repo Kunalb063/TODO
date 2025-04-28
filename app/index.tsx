@@ -69,7 +69,27 @@ export default function Index() {
       <Text style={{
         textAlign:'center'
       }}>Want to see something new</Text>
+
+      <View style={styles.button1}>
+        <Button onPress={()=>{Alert.alert("Submitted")}}
+        title="Button"
+        color={"green"}
+        />
+        
+      </View>
     </View>
     
   );
 }
+
+const styles = StyleSheet.create({
+  box:{
+    backgroundColor:"red",
+   
+  },
+  button1:{
+    margin:50,
+    width:200,
+    
+  }
+})
