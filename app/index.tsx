@@ -6,11 +6,11 @@ import {SafeAreaView,SafeAreaProvider} from 'react-native-safe-area-context';
 export default function index(){
   return(
     <View style={styles.head}>
-      <ImageBackground source={require("./cat1.jpeg")} resizeMode='cover' style={styles.image}>
-        <View style={styles.head}>
+      {/* <ImageBackground source={require("./cat1.jpeg")} resizeMode='cover' style={styles.image}> */}
+        <View>
           <Text style={styles.todo}>You are sexy</Text>
         </View>
-      </ImageBackground>
+      {/* </ImageBackground> */}
     </View>
 
 
@@ -21,11 +21,14 @@ const styles=StyleSheet.create({
   head:{
     flex:1,
     justifyContent:'center',
-    alignContent:'center'
+    alignContent:'center',
+    opacity:0.5
   },
   todo:{
     alignSelf:'center',
     fontSize:50,
+    fontWeight:'bold',
+    opacity:,
     
   },
   image:{
